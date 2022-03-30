@@ -5,7 +5,7 @@ class CFG:
     """
     Configuration settings for the training model
     """
-    epochs = 5
+    epochs = 10
     optimizer = 'adam'
     activation = 'relu'
     debug = True
