@@ -8,6 +8,6 @@ class CFG:
     epochs = 5
     optimizer = 'adam'
     activation = 'relu'
-    debug = False
+    debug = True
     model_name = 'model' + '_e' + str(epochs)
 
