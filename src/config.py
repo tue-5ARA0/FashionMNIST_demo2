@@ -5,9 +5,9 @@ class CFG:
     """
     Configuration settings for the training model
     """
-    epochs = 5
+    epochs = 10
     optimizer = 'adam'
     activation = 'relu'
-    debug = False
+    debug = True
     model_name = 'model' + '_e' + str(epochs)
 
